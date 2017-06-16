@@ -1,0 +1,67 @@
+{
+      "countOne": "3879",
+      "countTwo": "3879",
+      "countThree": "60",
+      "nodes": [
+      {
+            "name": "专利",
+            "value": 2892,
+            "itemStyle":{
+                  "normal":{
+                        "color":"#0192D4",
+                        "borderColor":"#0192D4"
+                  }
+            }
+      },
+      {"name": "著作权","value":104,"itemStyle":{"normal":{"color":"#D66559","borderColor":"#D66559"}}},
+      {"name": "商标","value":883,"itemStyle":{"normal":{"color":"#81A84B","borderColor":"#81A84B"}}},
+      {"name": "发明专利","value":24,"itemStyle":{"normal":{"color":"#c86e20","borderColor":"#c86e20"}}},
+      {"name": "实用新型专利","value":2054,"itemStyle":{"normal":{"color":"#c86e20","borderColor":"#c86e20"}}},
+      {"name": "外观设计","value":814,"itemStyle":{"normal":{"color":"#c86e20","borderColor":"#c86e20"}}},
+      {"name": "软件著作权","value":77,"itemStyle":{"normal":{"color":"#40A037","borderColor":"#40A037"}}},
+      {"name": "作品著作权","value":27,"itemStyle":{"normal":{"color":"#40A037","borderColor":"#40A037"}}},
+      {"name": "商品商标","value":673,"itemStyle":{"normal":{"color":"#33DBFF","borderColor":"#33DBFF"}}},
+      {"name": "服务商标","value":210,"itemStyle":{"normal":{"color":"#33DBFF","borderColor":"#33DBFF"}}},
+      {"name": "民事","value":8,"itemStyle":{"normal":{"color":"#8A4F1E","borderColor":"#8A4F1E"}}},
+      {"name": "刑事","value":23,"itemStyle":{"normal":{"color":"#95A2A7","borderColor":"#95A2A7"}}},
+      {"name": "行政","value":29,"itemStyle":{"normal":{"color":"#2F5190","borderColor":"#2F5190"}}} 
+   ],
+   "links": [
+      {"source": "专利", "target": "发明专利", "value": 24,"lineStyle":{"normal":{"color":"#083C59","opacity":".6","curveness":"0"}}},
+      {"source": "专利", "target": "实用新型专利", "value": 2054,"lineStyle":{"normal":{"color":"#083C59","opacity":".6","curveness":"0"}}},
+      {"source": "专利", "target": "外观设计", "value": 814,"lineStyle":{"normal":{"color":"#083C59","opacity":".6","curveness":"0"}}},
+
+      {"source": "著作权", "target": "软件著作权", "value": 385,"lineStyle":{"normal":{"color":"#483036","opacity":".6","curveness":"0"}}},
+      {"source": "著作权", "target": "作品著作权", "value": 135,"lineStyle":{"normal":{"color":"#483036","opacity":".6","curveness":"0"}}},
+
+      {"source": "商标", "target": "商品商标", "value": 673,"lineStyle":{"normal":{"color":"#2F4330","opacity":".6","curveness":"0"}}},
+      {"source": "商标", "target": "服务商标", "value": 210,"lineStyle":{"normal":{"color":"#2F4330","opacity":".6","curveness":"0"}}},
+
+      {"source": "发明专利", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#453221","opacity":".6"}}},
+      {"source": "发明专利", "target": "刑事", "value": 40,"lineStyle":{"normal":{"color":"#453221","opacity":".6"}}},
+      {"source": "发明专利", "target": "行政", "value": 60,"lineStyle":{"normal":{"color":"#453221","opacity":".6"}}},
+
+      {"source": "实用新型专利", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+      {"source": "实用新型专利", "target": "刑事", "value": 40,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+      {"source": "实用新型专利", "target": "行政", "value": 60,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+
+      {"source": "外观设计", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+      {"source": "外观设计", "target": "刑事", "value": 30,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+      {"source": "外观设计", "target": "行政", "value": 60,"lineStyle":{"normal":{"color":"#453221","opacity":"1"}}},
+
+      {"source": "软件著作权", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#1C422A","opacity":"1"}}},
+      {"source": "软件著作权", "target": "刑事", "value": 30,"lineStyle":{"normal":{"color":"#1C422A","opacity":"1"}}},
+
+      {"source": "作品著作权", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#1C422A","opacity":"1"}}},
+      {"source": "作品著作权", "target": "刑事", "value": 30,"lineStyle":{"normal":{"color":"#1C422A","opacity":"1"}}},
+
+      {"source": "商品商标", "target": "民事", "value": 10,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}},
+      {"source": "商品商标", "target": "刑事", "value": 30,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}},
+      {"source": "商品商标", "target": "行政", "value": 60,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}},
+      
+      {"source": "服务商标", "target": "民事", "value": 20,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}},
+      {"source": "服务商标", "target": "刑事", "value": 30,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}},
+      {"source": "服务商标", "target": "行政", "value": 50,"lineStyle":{"normal":{"color":"#185364","opacity":"1"}}}
+      
+   ]
+}

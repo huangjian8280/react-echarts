@@ -1,0 +1,48 @@
+{
+    "code": "200",
+    "data": {
+        "changeList": [
+            {
+                "increased": 14607,
+                "year": 2010,
+                "total": 62949
+            },
+            {
+                "increased": 12463,
+                "year": 2011,
+                "total": 75412
+            },
+            {
+                "increased": 9102,
+                "year": 2012,
+                "total": 84514
+            },
+            {
+                "increased": 15444,
+                "year": 2013,
+                "total": 99958
+            },
+            {
+                "increased": 19265,
+                "year": 2014,
+                "total": 119223
+            },
+            {
+                "increased": 21892,
+                "year": 2015,
+                "total": 141115
+            },
+            {
+                "increased": 31605,
+                "year": 2016,
+                "total": 172720
+            },
+            {
+                "increased": 10622,
+                "year": 2017,
+                "total": 183342
+            }
+        ]
+    },
+    "message": "OK"
+}
